@@ -181,3 +181,37 @@ p{
     padding: 10px 20px;
     border-radius: 5px;
 }
+.wrapper{
+    display: flex;
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    background-image: url(images/wrapper.png);
+    background-repeat: no-repeat;
+}
+.wrapper .wrapper-left{
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.wrapper .wrapper-left h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.wrapper .wrapper-left h2{
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.wrapper .wrapper-right-btn{
+    margin-left: 50%;
+    margin-top: 100px;
+}
+.wrapper .wrapper-right-btn a{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #35cdff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}

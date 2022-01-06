@@ -1,0 +1,67 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.banner{
+    display: flex;
+    background-image: url(images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .banner-content{
+    width: 50%;
+}
+.banner .banner-text{
+    width: 450px;
+    height: 600px;
+    margin-top: 250px;
+    margin-left: 200px;
+}
+.banner .banner-text .banner-text-head{
+    display: flex;
+    padding-top: 20px;
+}
+.banner .banner-text .banner-text-head span{
+    border: 2px solid #BAE8F7;
+    padding: 0;
+    margin: 0;
+
+}
+.banner .banner-text .banner-text-head h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #BAE8F7;
+    margin-left: 10px;   
+}
+.banner .banner-text .banner-text-head h2{
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 10px;   
+}
+.banner .banner-text p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+}
+.banner .banner-text a{
+    text-decoration: none;
+    background-color: #BAE8F7;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;  
+}
+.banner .banner-text h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}

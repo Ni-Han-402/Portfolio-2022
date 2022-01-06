@@ -65,3 +65,55 @@ p{
     font-weight: 400;
     margin-top: 30px;
 }
+
+
+
+
+.mission .mission-head h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 60px;
+    text-align: center;
+}
+.mission .mission-head span{
+    color: #BAE8F7;
+}
+.mission .mission-box{
+    display: flex;
+    margin: 30px 20px;
+
+
+}
+.mission .mission-box .mission-box-content{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+
+}
+.mission .mission-box .box-1{
+    background-color: #F1FAFD;
+}
+.mission .mission-box .box-2{
+    background-color: #f1fdf7;
+}
+.mission .mission-box .box-3{
+    background-color: #fbfdf1;
+}
+.mission .mission-box .mission-box-content img{
+    width: 100px;
+    height: 100px;
+}
+.mission .mission-box .mission-box-content h2{
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+.mission .mission-box .mission-box-content p{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0;
+
+}

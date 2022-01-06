@@ -121,10 +121,11 @@ p{
 
 .about{
     display: flex;
+    margin-top: 100px;
 }
 .about .about-content{
     width: 600px;
-    height: 600px;
+    height: 500px;
     margin-top: 50px;
 }
 .about .about-content h1{
@@ -143,6 +144,37 @@ p{
     margin-top: 30px;
 }
 .about .about-content .about-btn a{
+    text-decoration: none;
+    background-color: #BAE8F7;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.explore-us{
+    display: flex;
+}
+.explore-us .explore-us-content{
+    width: 600px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.explore-us .explore-us-content h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: #BAE8F7;
+}
+.explore-us .explore-us-content p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.explore-us .explore-us-content .explore-us-btn{
+    margin-top: 30px;
+}
+.explore-us .explore-us-content .explore-us-btn a{
     text-decoration: none;
     background-color: #BAE8F7;
     color: #ffffff;
